@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#69de45"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context="com.example.bulbul.cgpacalculator.SplashScreen">
+
+    <TextView
+
+        android:text="NU  CGPA CALCULATOR For CSE "
+        android:textSize="20sp"
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:textSize="15sp"
+        android:text="Developed by "
+        android:paddingBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:text="BULBUL AHMED"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:text="Global Institute of Information Technology, Tangail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Session(2013-2014)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ProgressBar
+        android:layout_weight="1"
+        android:id="@+id/progressbarId"
+        android:progressTint="#9e2176"
+        android:backgroundTint="#f9f9f9"
+        android:layout_width="match_parent"
+        android:layout_margin="80dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

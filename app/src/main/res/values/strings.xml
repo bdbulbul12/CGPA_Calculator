@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name"> NU CSE CGPA Calculator</string>
+    <string-array name="main_subject">
+        <item>Select One</item>
+        <item value="4.0">A+</item>
+        <item value="3.75">A</item>
+        <item value="3.50">A-</item>
+        <item value="3.25">B+</item>
+        <item value="3.00">B</item>
+        <item value="2.75">B-</item>
+        <item value="2.50">C+</item>
+        <item value="2.25">C</item>
+        <item value="2.00">D</item>
+        <item value="0.00">F</item>
+    </string-array>
+    <string name="intersetitial_add_unit">ca-app-pub-7873778668023845/7519071649</string>
+    <string name="intersetitial_add_unit_d">ca-app-pub-3940256099942544/1033173712</string>
+</resources>
